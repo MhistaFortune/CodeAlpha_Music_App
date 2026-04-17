@@ -1,0 +1,42 @@
+[
+  {
+    "id": "trk_01",
+    "title": "Neon Horizon",
+    "artist": "Synthwave Explorer",
+    "albumArt": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=200&auto=format&fit=crop",
+    "url": "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3",
+    "duration": 348
+  },
+  {
+    "id": "trk_02",
+    "title": "Midnight Cruising",
+    "artist": "Cybernetic",
+    "albumArt": "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&w=200&auto=format&fit=crop",
+    "url": "https://samplelib.com/lib/preview/mp3/sample-15s.mp3",
+    "duration": 15
+  },
+  {
+    "id": "trk_03",
+    "title": "Solar Groove",
+    "artist": "The Sunshines",
+    "albumArt": "https://images.unsplash.com/photo-1525362081669-2b476bb628c3?q=80&w=200&auto=format&fit=crop",
+    "url": "https://samplelib.com/lib/preview/mp3/sample-12s.mp3",
+    "duration": 12
+  },
+  {
+    "id": "trk_04",
+    "title": "Deep Focus",
+    "artist": "Zen Master",
+    "albumArt": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?q=80&w=200&auto=format&fit=crop",
+    "url": "https://samplelib.com/lib/preview/mp3/sample-9s.mp3",
+    "duration": 9
+  },
+  {
+    "id": "trk_05",
+    "title": "Jazz Classics Revived",
+    "artist": "The Oldtimers",
+    "albumArt": "https://images.unsplash.com/photo-1415201364774-f6b0bb14fb61?q=80&w=200&auto=format&fit=crop",
+    "url": "https://samplelib.com/lib/preview/mp3/sample-6s.mp3",
+    "duration": 6
+  }
+]
