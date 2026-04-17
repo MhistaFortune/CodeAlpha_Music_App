@@ -1,58 +1,69 @@
-# SoundScape 🎵
+# SoundScape Music App
 
-SoundScape is a modern, responsive, and high-performance custom-built music streaming web application. Featuring a premium deep navy aesthetic, seamless audio playback, and local file import capabilities, it acts as a fully self-contained music ecosystem right inside your browser.
+SoundScape is a modern, feature-rich custom-built music streaming web application built with React and Tailwind CSS. It provides high-fidelity audio playback, seamless local file imports, and immersive dynamic layouts built for premium aesthetics.
 
-![SoundScape Favicon](./public/favicon.png)
+## Screenshots
 
-## ✨ Key Features
+![Desktop View](./screenshots/desktop-view.jpeg)
+![Mobile View](./screenshots/mobile-view.jpeg)
+![Tablet View](./screenshots/tablet-view.jpeg)
 
-- **High-Fidelity Audio Engine**: Seamless HTML5-powered `<audio>` foundation supporting play, pause, progress seeking, and volume adjustments.
-- **Smart Playback Controls**: Native support for **Shuffle**, **Repeat-All**, and **Repeat-1** modes mapped seamlessly to the UI and playback queue.
-- **Local File Import**: Import `.mp3`, `.wav`, or `.m4a` files directly from your mobile device or computer to play your own offline library. Files are cached securely in memory.
-- **Native OS Media Integration**: Hooked up natively with the OS-level `MediaSession` API—meaning your device's lock screen and notification media players will automatically sync the song name, artist, and custom album art while you listen.
-- **Persistent State Storage**: Playlists, History, Favorites, and User metadata are all securely retained and synced across sessions via `localStorage`.
-- **Responsive "Now Playing" Overlay**: A beautiful full-screen mobile-optimized player viewport, featuring fluid UI/UX layouts to bring your album cover art and controls to life.
-- **Custom Authentication & Profiles**: Sleek front-end registration flow with configurable avatars, editable usernames, and password visibility toggles.
+## Features
 
-## 🛠️ Technology Stack
+### 🎵 Core Features
+- **High-Fidelity Audio Engine:** Seamless HTML5-powered `<audio>` foundation supporting play, pause, progress seeking, and volume adjustments.
+- **Smart Playback Controls:** Native support for **Shuffle**, **Repeat-All**, and **Repeat-1** modes mapped seamlessly to the UI and playback queue.
+- **Local File Import:** Import `.mp3`, `.wav`, or `.m4a` files directly from your mobile device or computer to play your own offline library.
+- **Native OS Media Integration:** Complete lock screen and notification control integration using the native `MediaSession` API.
+- **Persistent State Storage:** Playlists, History, Favorites, and User metadata are securely retained across sessions via `localStorage`.
+- **Responsive Overlay:** Fluid mobile-first UI grids prioritizing album cover art styling and a truly native app "feel".
 
-- **Framework**: React 18 & Vite
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: Zustand (w/ Persistence Middleware)
-- **Icons**: Lucide React
+### ⚙️ Smart Customization Features [NEW]
+Tailor your music experience directly to your aesthetic needs:
+- **Custom Authentication & Profiles:** Sleek user onboarding flows supporting username adjustments and local profile settings.
+- **Configurable Avatars:** Personalize your music hub with dynamic, rich picture uploading.
+- **Premium Themes:** Polished deep navy gradients, glassmorphic panels, and carefully tailored typefaces.
 
-## 🚀 Getting Started
+### 🛠 Tech Stack
+- **Framework:** React 18 + Vite
+- **Styling:** Tailwind CSS + Lucide React (Icons)
+- **State Management:** Zustand (w/ Persistence Middleware)
+- **PWA Ready:** Installable and optimized for Desktop & Mobile
 
-### Prerequisites
+## Getting Started
 
-Ensure you have [Node.js](https://nodejs.org/) (Version 18+) installed on your machine.
-
-### Installation
-
-1. Clone the repository 
-2. Navigate into the project directory:
+1. **Clone the repository**
    ```bash
+   git clone https://github.com/MhistaFortune/codealpha_music_app.git
    cd CodeApha_Music_App
    ```
-3. Install all necessary dependencies mapping to the standard project tree:
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-### Running Locally
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-To start the development server:
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-```bash
-npm run dev
-```
+## Usage
 
-Visit the local Vite host address injected into your terminal (usually `http://localhost:5173`) in any modern web browser to open SoundScape.
+- **Local Import:** Access the "Library" menu to seamlessly drag-and-drop or select your device's local audio files.
+- **Media Controls:** Tap the mini "Bottom Player" bar to expand the full-screen "Now Playing" cover-flow dashboard.
+- **Playlists:** Keep track of your favorite tunes directly on your personalized playlists, all stored securely locally.
 
-## 📱 Mobile Support (PWA Ready)
+## Author
 
-SoundScape is completely optimized for mobile viewports! Because it features zero text-squashing issues and smart responsive grids, you can add it to your iOS or Android Home Screen, where it will gracefully function and handle native audio file-picking identical to a compiled native application.
+- **Developer** - [@MhistaFortune](https://github.com/MhistaFortune)
+- **Twitter/X** - [@fortunate_egwu](https://www.twitter.com/fortunate_egwu)
 
-## 📄 License
-This project is for personal portfolio and educational purposes. Ensure you have the rights to any music tracks distributed or uploaded via the Local Files interface.
+## Acknowledgments
+
+- CodeAlpha for the application assignment and initial project inspiration.
