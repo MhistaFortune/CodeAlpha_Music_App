@@ -74,7 +74,7 @@ export const useAuthStore = create<AuthState>()(
       },
 
       updateProfile: (email: string, username: string, avatarUrl: string, newPassword?: string) => {
-        const { usersRecord, user } = get();
+        const { usersRecord } = get();
         const normalizedEmail = email.toLowerCase();
         const existingRecord = usersRecord[normalizedEmail];
 
